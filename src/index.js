@@ -8,7 +8,7 @@ export function install (Vue) {
 
 // Expose the components
 export {
-  DotRating,
+  DotRating
   /* -- Add more components here -- */
 }
 
@@ -19,7 +19,7 @@ export {
 const plugin = {
   /* eslint-disable no-undef */
   version: VERSION,
-  install,
+  install
 }
 
 export default plugin
